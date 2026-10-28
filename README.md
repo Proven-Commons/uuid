@@ -10,7 +10,7 @@ A UUID parser and printer in Lean, following RFC 9562, with the round trip prove
 
 ## What is proved
 
-The definitions are in `Uuid/Value.lean` and `Uuid/Parse.lean`. The proofs are in `Proofs/`.
+The definitions are in `Uuid/Value.lean` and `Uuid/Parse.lean`. The proofs are in `Uuid/Proofs/`.
 
 | Claim | Theorem |
 |-------|---------|
