@@ -1,13 +1,14 @@
 name = "uuid"
 version = "0.1.0"
 license = "Apache-2.0"
-defaultTargets = ["Uuid", "Proofs", "uuid"]
+defaultTargets = ["Uuid", "UuidProofs", "uuid"]
 
 [[lean_lib]]
 name = "Uuid"
 
 [[lean_lib]]
-name = "Proofs"
+name = "UuidProofs"
+roots = ["Uuid.Proofs"]
 
 [[lean_exe]]
 name = "uuid"
